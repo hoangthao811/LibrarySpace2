@@ -50,7 +50,6 @@
             android:layout_marginBottom="-12dp"
             android:layout_weight="0.05"
             android:background="#ffffffff"
-            android:onClick="buttonOnClick"
             android:clickable="true"
             android:nestedScrollingEnabled="false" />
 

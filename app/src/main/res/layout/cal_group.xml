@@ -8,7 +8,7 @@
     android:background="#ff0c1246">
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
         android:id="@+id/next"
@@ -17,7 +17,6 @@
         android:layout_alignParentEnd="true"
         android:textColor="#ffffffff"
         android:background="#ff000a4c"
-        android:paddingLeft="300dp"
         android:nestedScrollingEnabled="true" />
 
     <CalendarView
@@ -87,10 +86,12 @@
             android:layout_column="0"
             android:layout_marginRight="270dp">
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/scrollView" />
+            <ListView
+                android:layout_width="357dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView" />
+
+
         </LinearLayout>
 
     </TableLayout>

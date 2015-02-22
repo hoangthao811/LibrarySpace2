@@ -4,9 +4,10 @@
     <string name="app_name">LibrarySpace</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_cal_grou">cal_grou</string>
     <string name="title_activity_cal_group">cal_group</string>
     <string name="title_activity_indiv_cal">Indiv_cal</string>
     <string name="title_activity_media_cal">MediaCal</string>
+
+
 
 </resources>
